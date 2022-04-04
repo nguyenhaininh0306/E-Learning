@@ -1,0 +1,54 @@
+.container {
+  margin: 0 auto;
+  width: 430px;
+  position: absolute;
+  top: 15%;
+  right: 20%;
+
+  .login {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.015em;
+    margin-bottom: 80px;
+  }
+  .btn {
+    width: 430px;
+    height: 52px;
+    background: linear-gradient(270deg, #ff5400 0%, #f17f21 80.56%);
+    border-radius: 8px;
+
+    span {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+
+  .login-form-forgot {
+    display: flex;
+    justify-content: end;
+    width: 430px;
+
+    .forgot-password {
+      color: #ff7506;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+}
+
+.ant-input {
+  height: 40px;
+  border-radius: 8px !important;
+  padding: 8px 16px;
+}
+
+.ant-input-affix-wrapper {
+  width: 430px !important;
+  border-radius: 8px;
+}
